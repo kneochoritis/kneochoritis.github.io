@@ -1,0 +1,41 @@
+body {
+    background: #0d0d0d;
+    color: #e6e6e6;
+    font-family: Arial, sans-serif;
+}
+
+/* CONTACT SECTION */
+#contact {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 60px auto;
+    background: #111;
+    border-radius: 10px;
+    border: 1px solid #222;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #2ecc71;
+    margin-bottom: 30px;
+    font-size: 26px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 8px;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact-icons i {
+    font-size: 50px;
+    color: #2ecc71;
+    transition: 0.2s;
+}
+
+.contact-icons i:hover {
+    color: #27ae60;
+    transform: scale(1.15);
+}
